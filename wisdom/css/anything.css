@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+}
+.header div{
+    display: inline-block;
+}
+.link{
+    margin-right: 1100px;
+    padding: 10px;
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.link a:hover{
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+}
+.banner{
+    background-image: url('../images/bvnbmn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+}
+.f1{
+    color: #eae;
+}
+.content h1{
+    background-color: #a3a;
+    height: 400px;
+    color: #fff;
+}
+.content h1{
+    text-align: center;
+    padding-top: 200px;
+}
+.last div{
+    display: inline-block;
+    margin-top: 10px;
+}
+.left, .right{
+    border: 1px solid #333;
+    padding: 10px;
+    width: 45%;
+}
+.left{
+    margin-right: 50px;
+}

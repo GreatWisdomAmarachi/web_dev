@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box div{
+   width: 100px;
+    height: 100px; 
+    background-color: #f00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@keyframes box1-animation{
+    0%{
+        transform: translate(0,0);
+        background-color: #f00;
+    }
+    25%{
+        transform: translate(1000px,0);
+        background-color: #0f0;
+    }
+    50%{
+        transform: translate(1000px,500px);
+        background-color: #ff0;
+        color: #000;
+    }
+    75%{
+        transform: translate(0,500px);
+        background-color: #00f;
+    }
+    100%{
+        transform: translate(0,0);
+        background-color: #f00;
+    }
+    }
+    .box1{
+        animation-name: box1-animation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+/* .box1{
+    transform: translate(110px, 110px);
+    transition: width 2s, height 2s, transform 2s;
+    transition-delay: 1s; */
+/* } */
+/* .box1:hover{
+    width: 200px;
+    height: 200px;
+    transform: skewY(50deg);
+} */
+.box2{
+    transform: rotate(90deg);
+}
+.box3{
+    /* transform: scale(2,3); */
+    /* transform: skew(30deg, 80deg); */
+}
+.box4{
+    transform: rotatey(120deg);
+}

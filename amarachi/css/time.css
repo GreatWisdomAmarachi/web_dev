@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td{
+    border:5px solid rgb(0, 0, 255);
+    text-align:center;
+    color: white;
+}
+body{
+    background-image: url('https://th.bing.com/th/id/OIP.rLG4pu7gkoIPlHgLa2zJ1wHaEo?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
